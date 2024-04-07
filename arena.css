@@ -1,0 +1,170 @@
+img[id="fundoareia"]{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    right: 0.5vh;
+    z-index: 1;
+    margin: 0;
+}
+
+img[id="bolaftv"]{
+    position: fixed;
+    width: 11vh;
+    height: 11vh;
+    top: 20vh;
+    right: -4vh;
+    filter: blur(0.8px);
+    z-index: 3;
+}
+img[id="sombrabolaftv"]{
+    position: fixed;
+    width: 22vh;
+    height: 22vh;
+    top: 16vh;
+    right: -14vh;
+    z-index: 2;
+    opacity: 70%;
+}
+img[id="bolavolei"]{
+    position: fixed;
+    width: 15vh;
+    height: 15vh;
+    top: 50vh;
+    left: -5vh;
+    filter: blur(0.8px);
+    z-index: 3;
+}
+img[id="sombrabolavl"]{
+    position: fixed;
+    width: 19vh;
+    height: 19vh;
+    top: 50vh;
+    left: -5vh;
+    z-index: 2;
+    opacity: 70%;
+}
+img[id="muie1"]{
+    position: fixed;
+    height: 10vh;
+    width: 10vh;
+    top: 10vh;
+    left: 4vh;
+    z-index: 3;
+    filter: blur(0.8px);
+}
+img[id="muie2"]{
+    position: fixed;
+    height: 13vh;
+    width: 13vh;
+    bottom: 1vh;
+    right: 4vh;
+    z-index: 3;
+    filter: blur(0.8px);
+}
+img[id="logo"]{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    height: 10vh;
+    width: 20vh;
+    transform: translateX(-50%);
+    z-index: 3;
+    transform-origin: bottom center;
+}
+@font-face {
+    font-family: "Real Madrid";
+    src: url("fonts/RealMadrid1920Regular.ttf") format("truetype");
+}
+h1 {
+    position: fixed;
+    font-size: 5vh;
+    top: 5%;
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Move o elemento de volta metade da sua largura e altura */
+    text-align: center;
+    z-index: 3;
+    font-family: "Real Madrid";
+}
+h2 {
+    position: fixed;
+    top: 10%;
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Apenas centraliza horizontalmente */
+    text-align: center;
+    z-index: 3;
+    font-size: 4vh;
+    font-family: "Real Madrid";
+}
+
+img[id="fundo"]{
+    position: fixed;
+    top: 40vh;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 3;
+    height: 10vh;
+    width: 40vh;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+
+}
+
+a#zap {
+    color: white;
+    font-family: "Real Madrid";
+    font-size: 4.5vh; /* Tamanho do texto ajustado */
+    text-decoration: none;
+    z-index: 3;
+    position: fixed; /* Adicionado para definir a posição */
+    top: 42vh; /* Ajuste conforme necessário */
+    left: 50%; /* Ajuste conforme necessário */
+    transform: translateX(-50%);
+}
+
+#zape {
+    position: fixed;
+    top: 42.8vh; /* Ajuste conforme necessário */
+    left: calc(50% - 15vh); /* Ajuste conforme necessário para posicionar ao lado do #zap */
+    width: 4vh; /* Largura fixa */
+    height: 4vh; /* Altura fixa */
+    z-index: 4;
+}
+
+img[id="fundo2"]{
+    position: fixed;
+    top: 50vh;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 3;
+    height: 10vh;
+    width: 40vh;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+
+}
+img[id="loc"]{
+    position: fixed;
+    top: 52.8vh; /* Ajuste conforme necessário */
+    left: calc(50% - 16vh); /* Ajuste conforme necessário para posicionar ao lado do #zap */
+    width: 4vh; /* Largura fixa */
+    height: 4vh; /* Altura fixa */
+    z-index: 5;
+
+}
+a#loc {
+    color: white;
+    font-family: "Real Madrid";
+    font-size: 4.5vh; /* Tamanho do texto ajustado */
+    text-decoration: none;
+    z-index: 3;
+    position: fixed; /* Adicionado para definir a posição */
+    top: 52.3vh; /* Ajuste conforme necessário */
+    left: 50%; /* Ajuste conforme necessário */
+    transform: translateX(-50%);
+}
